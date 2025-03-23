@@ -1,4 +1,4 @@
-   
+---   
 - hosts: webservers
   become: True
   tasks:
@@ -16,7 +16,7 @@
 	  ufw:
 	     rule:allow
 		 port:80
-		 porto:tcp
+		 port:tcp
 		 
     - name: Deploy static website
 		 copy:
